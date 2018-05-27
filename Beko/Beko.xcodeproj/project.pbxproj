@@ -117,6 +117,7 @@
 		61A6FFA31FDFCB0100B78293 /* ReportProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6FFA21FDFCB0100B78293 /* ReportProvider.swift */; };
 		61A6FFA91FDFCF2700B78293 /* cellReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A6FFA81FDFCF2700B78293 /* cellReport.swift */; };
 		61A6FFAB1FDFDB4300B78293 /* ic_progress_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 61A6FFAA1FDFDB4300B78293 /* ic_progress_144.png */; };
+		935344FE20BB12880011F3D1 /* ic_schedule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 935344FD20BB12870011F3D1 /* ic_schedule.jpg */; };
 		93D4BA4020BABAA100AD85F5 /* cellRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4BA3F20BABAA100AD85F5 /* cellRequest.swift */; };
 		93D4BA4220BABAD200AD85F5 /* RequestWorkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4BA4120BABAD200AD85F5 /* RequestWorkingViewController.swift */; };
 		93D4BA4420BAC50600AD85F5 /* WorkingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4BA4320BAC50600AD85F5 /* WorkingModel.swift */; };
@@ -124,7 +125,6 @@
 		93D4BA4820BAC55800AD85F5 /* WorkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4BA4720BAC55800AD85F5 /* WorkingProvider.swift */; };
 		93D4BA4A20BAC5E500AD85F5 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4BA4920BAC5E500AD85F5 /* Preferences.swift */; };
 		93D4BA4C20BB0BEC00AD85F5 /* ic_schedule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93D4BA4B20BB0BEB00AD85F5 /* ic_schedule.jpg */; };
-		93D4BA4E20BB0C2400AD85F5 /* ic_schedule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93D4BA4D20BB0C2300AD85F5 /* ic_schedule.jpg */; };
 		93D4BA5020BB0D9800AD85F5 /* ic_changeworking.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D4BA4F20BB0D9700AD85F5 /* ic_changeworking.png */; };
 		9A8BF12730D5D3B2922F399D /* Pods_BekoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9678A70CD246AD89D989EADE /* Pods_BekoTests.framework */; };
 /* End PBXBuildFile section */
@@ -269,6 +269,7 @@
 		61A6FFA81FDFCF2700B78293 /* cellReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellReport.swift; sourceTree = "<group>"; };
 		61A6FFAA1FDFDB4300B78293 /* ic_progress_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_progress_144.png; sourceTree = "<group>"; };
 		7E6DBFDD2064FE44004FB1B6 /* Beko.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Beko.entitlements; sourceTree = "<group>"; };
+		935344FD20BB12870011F3D1 /* ic_schedule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ic_schedule.jpg; path = ../../../../ic_schedule.jpg; sourceTree = "<group>"; };
 		93D4BA3F20BABAA100AD85F5 /* cellRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellRequest.swift; sourceTree = "<group>"; };
 		93D4BA4120BABAD200AD85F5 /* RequestWorkingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestWorkingViewController.swift; sourceTree = "<group>"; };
 		93D4BA4320BAC50600AD85F5 /* WorkingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkingModel.swift; sourceTree = "<group>"; };
@@ -276,7 +277,6 @@
 		93D4BA4720BAC55800AD85F5 /* WorkingProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkingProvider.swift; sourceTree = "<group>"; };
 		93D4BA4920BAC5E500AD85F5 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		93D4BA4B20BB0BEB00AD85F5 /* ic_schedule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_schedule.jpg; sourceTree = "<group>"; };
-		93D4BA4D20BB0C2300AD85F5 /* ic_schedule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ic_schedule.jpg; path = ../../../ic_schedule.jpg; sourceTree = "<group>"; };
 		93D4BA4F20BB0D9700AD85F5 /* ic_changeworking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_changeworking.png; sourceTree = "<group>"; };
 		9678A70CD246AD89D989EADE /* Pods_BekoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BekoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		979B224D7B0663A7123DC79E /* Pods-Beko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beko.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beko/Pods-Beko.debug.xcconfig"; sourceTree = "<group>"; };
@@ -485,8 +485,8 @@
 				61A6FFAA1FDFDB4300B78293 /* ic_progress_144.png */,
 				93D4BA4B20BB0BEB00AD85F5 /* ic_schedule.jpg */,
 				619767C61E375D6800BA8C2D /* ic_report_sales_144.png */,
+				935344FD20BB12870011F3D1 /* ic_schedule.jpg */,
 				619767C71E375D6800BA8C2D /* ic_report_weekly_144.png */,
-				93D4BA4D20BB0C2300AD85F5 /* ic_schedule.jpg */,
 				615B558C1E2E148A0079A417 /* back_ground.png */,
 				615B553A1E2DBE950079A417 /* ic_radio_enable.png */,
 				615B553B1E2DBE950079A417 /* ic_radio_checked.png */,
@@ -707,7 +707,6 @@
 				619767C31E375C2C00BA8C2D /* ic_store_144.png in Resources */,
 				615B555C1E2DBE950079A417 /* ic_radio_enable.png in Resources */,
 				615B55651E2DBE950079A417 /* ic_photo.png in Resources */,
-				93D4BA4E20BB0C2400AD85F5 /* ic_schedule.jpg in Resources */,
 				619767C11E375A5D00BA8C2D /* ic_checkout_144.png in Resources */,
 				615B55731E2DBE950079A417 /* ic_action_home.png in Resources */,
 				619767BF1E375A5500BA8C2D /* ic_checkin_144.png in Resources */,
@@ -731,6 +730,7 @@
 				615B55681E2DBE950079A417 /* ic_competitor.jpeg in Resources */,
 				615B55771E2DBE950079A417 /* ic_action_user.png in Resources */,
 				615B54AE1E2DBB2D0079A417 /* Assets.xcassets in Resources */,
+				935344FE20BB12880011F3D1 /* ic_schedule.jpg in Resources */,
 				615B556D1E2DBE950079A417 /* ic_checkin.png in Resources */,
 				619767C91E375D6800BA8C2D /* ic_report_monthly_144.png in Resources */,
 				615B557C1E2DBE950079A417 /* ic_pass.png in Resources */,
@@ -1163,7 +1163,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: phlong28@yahoo.com (8ZD55GPEF3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GU99465RB9;

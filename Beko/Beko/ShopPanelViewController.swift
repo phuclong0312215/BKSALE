@@ -132,10 +132,10 @@ class ShopPanelViewController: UIViewController,UITableViewDelegate,UITableViewD
        // PARAMATER.setValue(ACCESS_TOKEN, forKeyPath: "ACCESS_TOKEN")
         PARAMATER.setValue(Today, forKeyPath: "TODAY")
         PARAMATER.setValue(AUDITID, forKeyPath: "AUDITID")
-//        if btCheckIn.isEnabled == true {
-//            Function.Message("Thông báo", message: "Bạn chưa Check in.")
-//            return
-//        }
+        if btCheckIn.isEnabled == true {
+            Function.Message("Thông báo", message: "Bạn chưa Check in.")
+            return
+        }
 
         
         
